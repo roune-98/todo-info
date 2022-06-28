@@ -1,0 +1,39 @@
+.notification-btn {  
+    color:#002639;  
+    padding: 0;  
+    border: 0;  
+    background-color: transparent;  
+    height: 32px;  
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+}  
+.profile-btn {  
+    padding: 0;  
+    border: 0;  
+    background-color: transparent;  
+    display: flex;  
+    align-items: center;  
+    padding-left: 12px;  
+    border-left: 2px solid #ddd;  
+}  
+.profile-btn img {  
+    width: 32px;  
+    height: 32px;  
+    object-fit: cover;  
+    border-radius: 50%;  
+    margin-right: 4px;  
+}  
+.profile-btn span {  
+    color:#07090b;  
+    font-size: 16px;  
+    line-height: 24px;  
+    font-weight: 700;  
+} 
+.app-header-right {  
+    display: flex;  
+    align-items: center;  
+}
+.app-header-right button {  
+    margin-left: 10px;  
+}  

@@ -1,0 +1,59 @@
+
+.list-group-item-action:hover{
+    background-color: #ec5251; 
+    border-radius: 10px;
+}
+.sidebar-dark-primary, .modal-footer{
+    background-color: #002639;
+    font-family: 'DM Sans', sans-serif;  
+}
+.modal-footer{
+    display: flex;
+    margin-top: 10px; 
+}
+
+.side{
+    display: flex;
+    margin-top: 10px;
+}
+.side:hover{
+    background-color: #ec5251; 
+    border-radius: 10px;
+}
+.app-sidebar {  
+    /* padding: 40px 16px;   */
+    display: flex;  
+    flex-direction: column;  
+}  
+.icon{
+    width: 25px;
+    height: 25px;
+    color: #FFFFFF;
+}
+.textSide{
+    color:#FFFFFF; 
+    justify-content: center;  
+    align-items: center; 
+    size: 60px;
+}
+.textSideOver{
+    color:#FFFFFF; 
+    justify-content: center;  
+    align-items: center; 
+    size: 60px;
+}
+
+.textSideOver:hover{
+    color:#FFFFFF; 
+    size: 80px;
+}
+.app-sidebar-link {    
+    color:#FFFFFF;  
+    transition: 0.2s;   
+    flex-shrink: 0;  
+    width: 35px;  
+    height: 30px;  
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+}  

@@ -1,0 +1,58 @@
+import React from 'react'
+import '../../NavBar/NavBar.css'
+import logo from '../../assets/logo.png'
+import profil from '../../assets/profil.jpg'
+import { CgDetailsMore } from "react-icons/cg";
+import AjouterProf from './AjouterProf';
+
+const Prof = () => {
+    return (
+        <div>
+            <nav className="navbar navbar-expand-lg navbar-light bg-light">
+                <div className="container-fluid">
+                    <a classNameName="navbar-brand" href="#">
+                        <img classNameName="app-name" width="70" height="60" src={logo} /> 
+                    </a>
+                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <CgDetailsMore />
+                    </button>
+
+                    <div className="collapse navbar-collapse" id="navbarNav">
+                    <ul classNameName="navbar-nav mr-auto app-header text-center">
+                        <li classNameName="nav-item app-header-right">
+                            <div classNameName="search-wrapper nav-link">  
+                                <input classNameName="search-input w-50" type="text" placeholder="Search" />  
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="#002639"  stroke-linecap="round" stroke-linejoin="round" stroke-width="2" classNameName="feather feather-search" viewBox="0 0 24 24">  
+                                <defs></defs>  
+                                <circle cx="11" cy="11" r="8"></circle>  
+                                <path d="M21 21l-4.35-4.35"></path>  
+                                </svg>  
+                            </div>                         
+                        </li>
+                        <li className="nav-item app-header-right">
+                            <a className="nav-link" href="#">
+                                <button classNameName="notification-btn">  
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" classNameName="feather feather-bell">  
+                                    <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9" />  
+                                    <path d="M13.73 21a2 2 0 0 1-3.46 0" /></svg>  
+                                </button>
+                            </a>
+                        
+                            <a className="nav-link" href="#">
+                                <button classNameName="profile-btn">  
+                                    <img src={profil} />  
+                                    <span>Team 2BKD</span>  
+                                </button>
+                            </a>
+                        </li>
+                        
+                    </ul>
+                    </div>
+                </div>
+            </nav>
+            <AjouterProf/>
+        </div>
+    )
+}
+
+export default Prof;

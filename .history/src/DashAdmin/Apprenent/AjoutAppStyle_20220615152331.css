@@ -1,0 +1,30 @@
+/* a {
+    background: rgba(white, 0);
+    border-bottom: 1px solid;
+    color: white;
+    line-height: 1.4;
+    padding: .25em;
+    text-decoration: none;
+}
+
+a:hover {
+    background: rgba(white, 1);
+    color: red;
+  }
+.btn{
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-size:16px;
+    font-weight: 400;
+    line-height: 45px;
+    margin: 0 0 2em;
+    max-width: 160px; 
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 100%; 
+} */
+h1{
+    color:rgb(5, 87, 45)
+}

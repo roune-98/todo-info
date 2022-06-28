@@ -1,0 +1,152 @@
+*{
+  padding:0px;
+  margin: 0px;
+}
+
+.barre{
+  background-color: #ffffff;
+}
+
+.logo{
+  width:150px ;
+}
+
+a.nav-link.lien{
+  font-size: 20px;
+  text-transform:capitalize;
+  font-weight: bolder;
+}
+
+a.lien:hover{
+  color: #ec5251;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Start home */
+#accueil{
+  width: 100%;
+
+}
+
+/* End home */
+
+/* start about */
+.about{
+  padding: 100px 0;
+}
+.about .about-title {
+  position: relative;
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 60px;
+  padding-bottom: 20px;
+  font-size: 40px;
+  color: #07090b;
+}
+.about .about-title::before{
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  width: 210px;
+  height: 3px;
+  background: #ec5251;
+  transform:translateX(-50%) ;
+}
+.about .about-title::after{
+  content: "--|--";
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  font-size: 20px;
+  color: #ec5251;
+  padding: 5px;
+  background: #fff;
+  transform:translateX(-50%) ;
+}
+
+.about .column-left .img-ordi{
+  object-fit: cover;
+}
+
+.about .column-right .para1{
+  text-align: justify;
+  font-size: 16px;
+  color: #07090b;
+}
+
+/* End about */
+
+/* start formations */
+.formation{
+  padding: 20px 0;
+}
+
+.formation .about-formation {
+  position: relative;
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 60px;
+  padding-bottom: 20px;
+  font-size: 40px;
+  color: #07090b;
+}
+
+.formation .about-formation::before{
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  width: 210px;
+  height: 3px;
+  background: #ec5251;
+  transform:translateX(-50%) ;
+}
+
+.formation .about-formation::after{
+  content: "--|--";
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  font-size: 20px;
+  color: #ec5251;
+  padding: 5px;
+  background: #fff;
+  transform:translateX(-50%) ;
+}
+
+.card-formation{
+  color: #fff;
+  border-radius: 6px;
+  padding: 20px 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.card-title2{
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.card-formation:hover{
+  transform: scale(1.02);
+}
+
+.cardbodytext{
+  background-color: #002639;
+  color: #ffffff;
+}
+/* End formations */
+
+/* medias queries */
+
+@media screen and (max-width :1032px){
+  .img-etudiants{
+    width: 100%;
+    position: relative;
+    background-size: cover;
+  }
+}
+

@@ -1,0 +1,35 @@
+import React from 'react';
+import './App.css';
+import  {Routes, Route} from "react-router-dom";
+import AcceuiPricipal from './Dashbord/AcceuilPrincipal/AcceuiPricipal';
+import AccueilAdmin from './Dashbord/AccueilAdmin';
+import AccueilApp from './Dashbord/AccueilApp';
+
+import Login from './Admin/Authentification/Login';
+import Inscri from './Admin/Authentification/Inscri';
+
+import Admin from './DashAdmin/Admin';
+import Professeur from './DashProfesseur/Professeur';
+import DashApp from './DashApprenant/DashApp';
+
+
+function App() {
+  return (
+    <div class="wrapper">
+    
+      <Routes >
+        <Route path='/' element={<AcceuiPricipal/>} />
+        <Route path='/admin' element={<AccueilAdmin/>} />
+        <Route path='/appr' element={<AccueilApp/>} />
+        <Route path="/login" element={<Login/>} />
+        <Route path="/inscrire" element={<Inscri/>}/>
+        <Route path='/admin1' element={<Admin />} />
+        <Route path='/professeur' element={<Professeur />} />
+        <Route path='/apprenant' element={<DashApp />} />
+        
+      </Routes>
+    </div>
+  );
+}
+
+export default App;
